@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+:root{
+    --black: #000000;
+    --white: #FFFFFF;
+    --gradient: #31A8DD;
+}
+
+header {
+    background-image: url(../images/banner.png), linear-gradient(var(--black), var(--gradient));
+    background-size: cover;
+}
